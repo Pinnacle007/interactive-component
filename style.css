@@ -95,6 +95,15 @@ button:hover {
   transition: all 0.5s;
 }
 
+button:active {
+  color: var(--orange);
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  transform: translateY(3px);
+}
+
 .thank-you {
   display: flex;
   flex-direction: column;
@@ -132,11 +141,6 @@ button:hover {
   display: none;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  color: white;
-}
-.attribution a {
-  color: var(--orange);
-}
+
+
+
