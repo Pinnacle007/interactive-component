@@ -100,8 +100,7 @@ button:active {
   background-color: white;
   cursor: pointer;
   transition: all 0.5s;
-
-  transform: translateY(3px);
+  transform: translateY(4px);
 }
 
 .thank-you {
